@@ -81,10 +81,10 @@ public class ExampleCommand implements Command {
 To make your command require permissions simply add the following to your command implementation
 
 ```java
-    @Override
-public Permission[]requiredPermissions(){
-        return new Permission[]{ADD YOUR PERMISSIONS HERE};
-        }
+@Override
+public Permission[] requiredPermissions(){
+    return new Permission[]{ADD YOUR PERMISSIONS HERE};
+}
 ```
 
 By Jacobtread
